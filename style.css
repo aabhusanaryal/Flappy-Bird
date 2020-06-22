@@ -14,7 +14,7 @@ body {
         #45b649,
         #dce35b
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    overflow: none;
+    /* overflow: hidden; */
     height: 100%;
 }
 
@@ -34,4 +34,30 @@ body {
     background-color: red;
     /* top: 50%; */
     left: 100px;
+}
+
+.pipeContainer {
+    position: relative;
+    left: 500px;
+    width: 1000px;
+    background-color: rgba(50, 50, 50, 0.2);
+    height: 100%;
+}
+
+.pipe {
+    background-color: blue;
+    /* position: relative; */
+    width: 70px;
+}
+
+.topPipe {
+    top: 0;
+    height: 400px;
+}
+
+.bottomPipe {
+    position: absolute;
+    background-color: pink;
+    bottom: 0;
+    height: 300px;
 }
